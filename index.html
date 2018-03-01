@@ -63,6 +63,7 @@
                 var scene = new THREE.Scene();
                 this.scene = scene;
             },
+            // 创建环境光
             initLight: function(){
                 var light = new THREE.AmbientLight( 0xffffff, 1 );
                // light.position.set( 100, 100, 100 )
@@ -84,7 +85,7 @@
             //     this.scene.add( camera );
             //     this.camera = camera;
             // },
-            // 创建正方体
+            // 创建球体
             initMesh: function(){
                 var _this = this,
                 materials = [],
